@@ -1,0 +1,46 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+
+
+
+Used for creating an angular rails project
+
+1. create a new rails application
+& rails new greig_mcritchie -d postgresql
+
+2. gem 'angularjs-rails'
+
+3. //= require angular
+
+
+
+6. Create an init.js file in your root javascript folder.
+Then add //= require init before //= require_tree so the init will
+load before the controllers, services, ...
+In this way the var *app* is defined before loading the rest of the js.
