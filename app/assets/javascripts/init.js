@@ -1,1 +1,1 @@
-var app = angular.module('GriegMcRitchie', ['ui.router'])
+var app = angular.module('KarenMcRitchie', ['ui.router'])
